@@ -35,7 +35,10 @@ Default password: `rootpass`
 USE product_db;
 ```
 
-### 3. Insert Seed Data
+### 3. Run the backend server to apply database migrations
+This will apply any pending database migrations automatically.
+
+### 4. Insert Seed Data
 ```bash
 INSERT INTO categories (name, description) VALUES
 ('Home Appliances', 'Electronic devices and appliances for everyday household use.'),
