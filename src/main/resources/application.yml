@@ -2,7 +2,7 @@ spring:
   application:
     name: product_service
   jackson:
-    default-property-inclusion: non_null # para no incluir parámetros nulos en las responses
+    default-property-inclusion: non_null # para no incluir parametros nulos en las responses
     property-naming-strategy: SNAKE_CASE # devolver campos en "snake_case"
   datasource:
     url: jdbc:mysql://localhost:3306/product_db
@@ -11,5 +11,5 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update # NO es para usar en producción
+      ddl-auto: update # NO es para usar en produccion
     show-sql: true

@@ -21,6 +21,21 @@ cd product-service
 docker compose up -d
 ```
 
+## `Docker Setup`
+To run the entire application stack (application + database) with Docker:
+```bash
+docker compose up --build
+```
+
+This single command will:
+
+- Build the Java application image
+- Start a MySQL database container
+- Start the application container
+- Wait for the database to be ready before starting the app
+
+The application will be available at `http://localhost:8080` and the database at port `:3306`.
+
 ## `Seed Test Data`
 To populate the database with sample categories and products, you can use the following SQL commands manually:
 
