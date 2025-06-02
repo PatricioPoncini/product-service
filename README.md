@@ -9,19 +9,14 @@ A simple backend service built with Java and Spring Boot to manage products and 
 
 ## `Getting Started`
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/product-service.git
 cd product-service
 ```
 
-### 2. Start MySQL with Docker Compose
-```bash
-docker compose up -d
-```
-
-## `Docker Setup`
+### `Docker Setup`
 To run the entire application stack (application + database) with Docker:
 ```bash
 docker compose up --build
@@ -37,6 +32,8 @@ This single command will:
 The application will be available at `http://localhost:8080` and the database at port `:3306`.
 
 ## `Seed Test Data`
+<details>
+  <summary><strong>Show instructions</strong></summary>
 To populate the database with sample categories and products, you can use the following SQL commands manually:
 
 ### 1. Access MySQL container
@@ -70,3 +67,4 @@ INSERT INTO products (name, description, price, category_id, status) VALUES
 ('Camping Tent 4-Person', 'Lightweight and waterproof tent for outdoor camping.', 150.00, 3, 1),
 ('Organic Vitamin C Supplement', 'Boost your immune system with natural vitamin C tablets.', 19.99, 4, 1);
 ```
+</details>
