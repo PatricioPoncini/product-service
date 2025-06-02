@@ -4,7 +4,7 @@ A simple backend service built with Java and Spring Boot to manage products and 
 
 ## `Stack`
 
-[![Stack](https://skillicons.dev/icons?i=java,spring,mysql,docker)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=java,spring,maven,mysql,docker)](https://skillicons.dev)
 
 
 ## `Getting Started`
