@@ -12,7 +12,7 @@ A simple backend service built with Java and Spring Boot to manage products and 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/product-service.git
+git clone https://github.com/PatricioPoncini/product-service.git
 cd product-service
 ```
 
